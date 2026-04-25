@@ -1,0 +1,52 @@
+/* Andrew Pulliam - 04/25/2026 */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="email"] {
+    padding: 0px;
+    margin: 0px 0;
+    border: 1px solid #888;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 1px solid #2a5d8a;
+    background-color: #3a7cb0;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #2a5d8a;
+}
+
+.message {
+    color: #1a4d2e;
+    margin: 20px 0;
+    padding: 15px;
+    border-left: 4px solid #1a4d2e;
+    background-color: #e8f5e9;
+}
+
+.message.error {
+    color: #8b1a1a;
+    border-left-color: #8b1a1a;
+    background-color: #fdecea;
+}
