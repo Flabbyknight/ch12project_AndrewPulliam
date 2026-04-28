@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     }
 
-    $sql = "SELECT firstName, lastName, email FROM thl_student WHERE email = ?";
+    $sql = "SELECT firstName, lastName, email FROM tbl_student WHERE email = ?";
     $stmt = mysqli_prepare($conn, $sql);
     mysqli_stmt_bind_param($stmt, "s", $email);
     mysqli_stmt_execute($stmt);
